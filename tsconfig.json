@@ -16,6 +16,11 @@
     "target": "es2017",
     "module": "commonjs",
     "baseUrl": "./",
+    "paths": {
+      // "types/*": ["types/*"],
+      // "hooks/*": ["src/hooks/*"],
+      // "styles/*": ["src/styles/components/*"]
+    },
     "typeRoots": [
       "node_modules/@types",
       "types"

@@ -1,3 +1,3 @@
-import Timer from './components/timer/timer'
+export { default as FireNavBar } from './components/NavBar/NavBar'
 
-export default Timer
+export { useBarsHeight } from './hooks/use-bars-height'

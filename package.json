@@ -1,11 +1,11 @@
 {
-  "name": "taro-uilib-react",
+  "name": "fire-components-taro",
   "version": "0.0.1",
   "browser": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "source": "src/index.ts",
-  "description": "Taro UI 库 React 版本范例",
+  "description": "Fire Components",
   "types": "types/index.d.ts",
   "files": [
     "lib",
@@ -33,6 +33,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^8.0.1",
@@ -67,5 +68,8 @@
     "@tarojs/react": "^3.0.8",
     "react": ">=16.13.0",
     "react-dom": ">=16.13.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1"
   }
 }
