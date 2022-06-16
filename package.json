@@ -30,7 +30,7 @@
   "keywords": [
     "taro"
   ],
-  "author": "",
+  "author": "zr",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.9",
